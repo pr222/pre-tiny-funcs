@@ -21,6 +21,7 @@
  */
 export function roundUp (number) {
   // TODO: Write your code here.
+  return Math.ceil(number)
 }
 
 /**
@@ -31,6 +32,7 @@ export function roundUp (number) {
  */
 export function roundDown (number) {
   // TODO: Write your code here.
+  return Math.floor(number)
 }
 
 /**
@@ -41,6 +43,7 @@ export function roundDown (number) {
  */
 export function round (number) {
   // TODO: Write your code here.
+  return Math.round(number)
 }
 
 /**
@@ -51,6 +54,7 @@ export function round (number) {
  */
 export function getStringLength (str) {
   // TODO: Write your code here.
+  return str.length
 }
 
 /**
@@ -60,7 +64,8 @@ export function getStringLength (str) {
  * @returns {string} A string representing the first character.
  */
 export function getFirstLetter (str) {
-  // TODO: Write your code here.
+  // TODO: Write your code here
+  return str.charAt(0)
 }
 
 /**
@@ -71,6 +76,7 @@ export function getFirstLetter (str) {
  */
 export function getIndexOfQuestionMark (str) {
   // TODO: Write your code here.
+  return str.indexOf('?')
 }
 
 /**
@@ -82,6 +88,7 @@ export function getIndexOfQuestionMark (str) {
  */
 export function isEqual (str1, str2) {
   // TODO: Write your code here.
+  return str1 === str2
 }
 
 /**
@@ -92,6 +99,7 @@ export function isEqual (str1, str2) {
  */
 export function isOdd (number) {
   // TODO: Write your code here.
+  return number %2 === 1
 }
 
 /**
@@ -102,4 +110,5 @@ export function isOdd (number) {
  */
 export function isEven (number) {
   // TODO: Write your code here.
+  return number %2 === 0
 }
