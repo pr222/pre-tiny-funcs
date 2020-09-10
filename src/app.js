@@ -3,7 +3,6 @@
  *
  * @author Johan Leitet <johan.leitet@lnu.se>
  * @author Mats Loock <mats.loock@lnu.se>
- * @author Pauliina Raitaniemi <pr222ja@lnu.student.se>
  * @version 1.0.0
  */
 
